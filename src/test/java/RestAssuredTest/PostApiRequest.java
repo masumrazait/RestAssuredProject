@@ -23,6 +23,13 @@ public class PostApiRequest {
 
 		// Add place -> update place with new Address -> get Place to validate if new
 		// address is present in response
+		// Update
+		given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
+				.body("{\r\n" + "     \"place_id\": \"" + placeId + "\",\r\n"
+						+ "     \"address\": \"70 Bihar, USA\",\r\n" + "     \"key\": \"qaclick123\"\r\n" + "\r\n"
+						+ "}")
+				.when().put("/maps/api/place/update/json").then().assertThat().log().all().statusCode(200)
+				.body("msg", equalTo("Address successfully updated"));
 
 	}
 
