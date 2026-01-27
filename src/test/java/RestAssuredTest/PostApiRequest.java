@@ -28,7 +28,7 @@ public class PostApiRequest {
 				.body("{\r\n" + "     \"place_id\": \"" + placeId + "\",\r\n"
 						+ "     \"address\": \"70 Bihar, USA\",\r\n" + "     \"key\": \"qaclick123\"\r\n" + "\r\n"
 						+ "}")
-				.when().put("/maps/api/place/update/json").then().assertThat().statusCode(200)
+				.when().put("/maps/api/place/update/json").then().assertThat().log().all().statusCode(200)
 				.body("msg", equalTo("Address successfully updated"));
 
 	}
