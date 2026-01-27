@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-27T11:30:14 IST" name="Default suite" finished-at="2026-01-27T11:30:19 IST" duration-ms="5353">
+  <suite started-at="2026-01-27T12:04:52 IST" name="Default suite" finished-at="2026-01-27T12:04:56 IST" duration-ms="3932">
     <groups>
     </groups>
-    <test started-at="2026-01-27T11:30:14 IST" name="Default test" finished-at="2026-01-27T11:30:19 IST" duration-ms="5353">
-      <class name="RestAssuredTest.Demo1">
-        <test-method signature="getProductList()[pri:0, instance:RestAssuredTest.Demo1@74d1dc36]" started-at="2026-01-27T11:30:14 IST" name="getProductList" finished-at="2026-01-27T11:30:19 IST" duration-ms="5237" status="PASS">
+    <test started-at="2026-01-27T12:04:52 IST" name="Default test" finished-at="2026-01-27T12:04:56 IST" duration-ms="3932">
+      <class name="RestAssuredTest.PostApi">
+        <test-method signature="PostApiRequest()[pri:0, instance:RestAssuredTest.PostApi@74d1dc36]" started-at="2026-01-27T12:04:52 IST" name="PostApiRequest" finished-at="2026-01-27T12:04:56 IST" duration-ms="3794" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getProductList -->
-      </class> <!-- RestAssuredTest.Demo1 -->
+        </test-method> <!-- PostApiRequest -->
+      </class> <!-- RestAssuredTest.PostApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
