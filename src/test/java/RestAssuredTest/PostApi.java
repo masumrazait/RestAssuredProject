@@ -19,7 +19,7 @@ public class PostApi {
 						+ "    \"shoe park\",\r\n" + "    \"shop\"\r\n" + "  ],\r\n"
 						+ "  \"website\": \"http://google.com\",\r\n" + "  \"language\": \"French-IN\"\r\n" + "}\r\n"
 						+ "")
-				.when().post("/maps/api/place/add/json").then().log().all().assertThat().statusCode(200);
+				.when().post("/maps/api/place/add/json").then().log().all().assertThat().statusCode(209);
 
 	}
 }
