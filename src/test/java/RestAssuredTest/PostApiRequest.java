@@ -2,12 +2,12 @@ package RestAssuredTest;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.testng.Assert.assertEquals;
+
+import org.testng.Assert;
 
 import files.payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.ValidatableResponse;
 
 public class PostApiRequest {
 	public static void main(String[] args) {
@@ -41,7 +41,7 @@ public class PostApiRequest {
 		JsonPath js1 = new JsonPath(getPlaceResponse);
 		String actualAddress = js1.getString("address");
 		System.out.println(actualAddress);
-		assertEquals(actualAddress, newAddress);
+		Assert.assertEquals(actualAddress, newAddress);
 	}
 
 }
