@@ -200,8 +200,3 @@ Specify the project license here (e.g., MIT). If no license file exists yet, add
 
 ## Contact
 Repository owner: [masumrazait](https://github.com/masumrazait)
-
-If you'd like, I can:
-- Create this README.md in the repository directly,
-- Tailor the content to exact frameworks used (TestNG vs JUnit, Allure vs Surefire), or
-- Add example GitHub Actions workflow or sample test classes based on the repo contents.
