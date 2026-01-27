@@ -9,7 +9,7 @@ import files.payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
-public class PostApiRequest {
+public class Basics {
 	public static void main(String[] args) {
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
