@@ -18,7 +18,7 @@ public class PostApiRequest {
 		System.out.println("======================");
 		System.out.println(response);
 		JsonPath js = new JsonPath(response);
-		String placeId = js.getString("place_Id");
+		String placeId = js.getString("place_id");
 		System.out.println(placeId);
 
 		// Add place -> update place with new Address -> get Place to validate if new
