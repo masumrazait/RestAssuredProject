@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredTest.GetBrandsList">
+      <class name="RestAssuredTest.PostApi">
         <methods>
-          <include name="getBrandsList"/>
+          <include name="PostApiRequest"/>
         </methods>
-      </class> <!-- RestAssuredTest.GetBrandsList -->
+      </class> <!-- RestAssuredTest.PostApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,6 +1,7 @@
 package RestAssuredTest;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 import org.testng.annotations.Test;
 
@@ -19,7 +20,11 @@ public class PostApi {
 						+ "    \"shoe park\",\r\n" + "    \"shop\"\r\n" + "  ],\r\n"
 						+ "  \"website\": \"http://google.com\",\r\n" + "  \"language\": \"French-IN\"\r\n" + "}\r\n"
 						+ "")
-				.when().post("/maps/api/place/add/json").then().log().all().assertThat().statusCode(209);
+				.when().post("/maps/api/place/add/json").then().log().all().assertThat().statusCode(200)
+				.body("scope", equalTo("APP")).header("Server", "Apache/2.4.52 (Ubuntu)");
+
+		// Add place -> update place with new Address -> get Place to validate if new
+		// address is present in response
 
 	}
 }
