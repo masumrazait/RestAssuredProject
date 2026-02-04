@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-28T16:46:06 IST" name="Default suite" finished-at="2026-01-28T16:46:10 IST" duration-ms="3362">
+  <suite started-at="2026-01-31T18:38:09 IST" name="Default suite" finished-at="2026-01-31T18:38:12 IST" duration-ms="2542">
     <groups>
     </groups>
-    <test started-at="2026-01-28T16:46:06 IST" name="Default test" finished-at="2026-01-28T16:46:10 IST" duration-ms="3362">
-      <class name="RestAssuredTest.Api_Testing">
-        <test-method signature="createEmployeeTest()[pri:0, instance:RestAssuredTest.Api_Testing@795509d9]" started-at="2026-01-28T16:46:07 IST" name="createEmployeeTest" finished-at="2026-01-28T16:46:10 IST" duration-ms="3294" status="PASS">
+    <test started-at="2026-01-31T18:38:09 IST" name="Default test" finished-at="2026-01-31T18:38:12 IST" duration-ms="2542">
+      <class name="RestAssuredTest.GetBrandsList">
+        <test-method signature="getBrandsList()[pri:0, instance:RestAssuredTest.GetBrandsList@795509d9]" started-at="2026-01-31T18:38:09 IST" name="getBrandsList" finished-at="2026-01-31T18:38:12 IST" duration-ms="2478" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createEmployeeTest -->
-      </class> <!-- RestAssuredTest.Api_Testing -->
+        </test-method> <!-- getBrandsList -->
+      </class> <!-- RestAssuredTest.GetBrandsList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
