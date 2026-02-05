@@ -24,6 +24,5 @@ public class FindTheDuplicateNumber {
 			}
 		}
 		System.out.println(uniqNum);
-
 	}
 }
