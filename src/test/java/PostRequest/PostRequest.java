@@ -7,7 +7,7 @@ public class PostRequest {
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
 				.body("{\r\n" + "    \"location\": {\r\n" + "        \"latitude\": \"-38.383494\",\r\n"
 						+ "        \"longitude\": \"33.427362\"\r\n" + "    },\r\n" + "    \"accuracy\": \"50\",\r\n"
-						+ "    \"name\": \"Masum Flat\",\r\n" + "    \"phone_number\": \"(+91) 983 893 3937\",\r\n"
+						+ "    \"name\": \"Masum & Simmi Flat\",\r\n" + "    \"phone_number\": \"(+91) 983 893 3937\",\r\n"
 						+ "    \"address\": \"29, side layout, cohen 09\",\r\n"
 						+ "    \"types\": \"shoe park,shop\",\r\n" + "    \"website\": \"http://google.com\",\r\n"
 						+ "    \"language\": \"French-IN\"\r\n" + "}")
