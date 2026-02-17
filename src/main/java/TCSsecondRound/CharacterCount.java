@@ -12,7 +12,7 @@ public class CharacterCount {
 		}
 		for (Map.Entry<Character, Integer> entry : charc.entrySet()) {
 			if (entry.getValue() == 1)
-				System.out.print(entry.getKey() + "=" + entry.getValue() + "  ");
+				System.out.print(entry.getKey() + "=" + entry.getValue() + " ");
 		}
 	}
 }
