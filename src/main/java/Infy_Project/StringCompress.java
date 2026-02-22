@@ -13,5 +13,4 @@ public class StringCompress {
 		}
 		System.out.println(result);
 	}
-
 }
