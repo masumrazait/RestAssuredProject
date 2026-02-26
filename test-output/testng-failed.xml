@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Get.GetAllProductsList">
+      <class name="GetRequest.CreateBookingTest">
         <methods>
-          <include name="getAllProductsListTest"/>
+          <include name="setup"/>
+          <include name="createBooking_shouldReturn200_andValidBody"/>
         </methods>
-      </class> <!-- Get.GetAllProductsList -->
+      </class> <!-- GetRequest.CreateBookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
